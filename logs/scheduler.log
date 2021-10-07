@@ -1,0 +1,34 @@
+2021-10-08 03:49:19,048 DEBUG scheduler Queued events for site library.test2
+2021-10-08 03:50:19,284 DEBUG scheduler Queued events for site library.test2
+2021-10-08 03:51:19,510 DEBUG scheduler Queued events for site library.test2
+2021-10-08 03:52:19,742 DEBUG scheduler Queued events for site library.test2
+2021-10-08 03:52:19,794 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library.test2
+2021-10-08 03:52:19,980 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library.test2
+2021-10-08 03:52:20,080 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library.test2
+2021-10-08 03:52:20,265 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library.test2
+2021-10-08 03:52:20,365 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library.test2
+2021-10-08 03:52:20,710 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library.test2
+2021-10-08 03:52:20,810 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library.test2
+2021-10-08 03:52:21,066 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library.test2
+2021-10-08 03:52:21,164 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library.test2
+2021-10-08 03:52:21,431 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library.test2
+2021-10-08 03:52:21,526 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library.test2
+2021-10-08 03:52:21,734 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library.test2
+2021-10-08 03:53:19,951 DEBUG scheduler Queued events for site library.test2
+2021-10-08 03:54:20,159 DEBUG scheduler Queued events for site library.test2
+2021-10-08 03:55:20,362 DEBUG scheduler Queued events for site library.test2
+2021-10-08 03:56:20,590 DEBUG scheduler Queued events for site library.test2
+2021-10-08 03:56:20,637 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library.test2
+2021-10-08 03:56:20,818 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library.test2
+2021-10-08 03:56:20,915 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library.test2
+2021-10-08 03:56:21,099 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library.test2
+2021-10-08 03:56:21,192 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library.test2
+2021-10-08 03:56:21,512 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library.test2
+2021-10-08 03:56:21,608 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library.test2
+2021-10-08 03:56:21,852 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library.test2
+2021-10-08 03:56:21,948 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library.test2
+2021-10-08 03:56:22,205 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library.test2
+2021-10-08 03:56:22,301 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library.test2
+2021-10-08 03:56:22,496 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library.test2
+2021-10-08 03:57:20,828 DEBUG scheduler Queued events for site library.test2
+2021-10-08 03:58:21,048 DEBUG scheduler Queued events for site library.test2

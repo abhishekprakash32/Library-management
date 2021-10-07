@@ -1,0 +1,100 @@
+2021-10-07 19:29:29,101 DEBUG cd frappe-bench && /home/dell/.local/bin/virtualenv -q env -p python3
+2021-10-07 19:29:29,494 LOG Getting app frappe
+2021-10-07 19:29:29,494 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-13 --depth 1 --origin upstream
+2021-10-07 19:29:35,313 LOG installing frappe
+2021-10-07 19:29:35,314 DEBUG frappe-bench/env/bin/python -m pip install -q -U -e frappe-bench/apps/frappe 
+2021-10-07 19:30:07,464 DEBUG cd frappe-bench/apps/frappe && yarn install
+2021-10-07 19:30:47,873 DEBUG cd frappe-bench/apps/frappe && yarn install
+2021-10-07 19:30:54,853 DEBUG cd frappe-bench && bench build
+2021-10-07 19:30:55,068 INFO /home/dell/.local/bin/bench build
+2021-10-07 19:31:00,229 LOG setting up backups
+2021-10-07 19:31:00,237 INFO Bench frappe-bench initialized
+2021-10-07 19:31:24,371 INFO /home/dell/.local/bin/bench start
+2021-10-07 19:31:25,389 INFO /home/dell/.local/bin/bench worker --queue default
+2021-10-07 19:31:25,404 INFO /home/dell/.local/bin/bench worker --queue short
+2021-10-07 19:31:25,527 INFO /home/dell/.local/bin/bench schedule
+2021-10-07 19:31:25,588 INFO /home/dell/.local/bin/bench worker --queue long
+2021-10-07 19:31:25,655 INFO /home/dell/.local/bin/bench watch
+2021-10-07 19:31:25,657 INFO /home/dell/.local/bin/bench serve --port 8000
+2021-10-07 19:36:17,217 INFO /home/dell/.local/bin/bench new-app library_management
+2021-10-07 19:36:17,517 LOG creating new app library_management
+2021-10-07 19:36:46,508 LOG installing library_management
+2021-10-07 19:36:46,510 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/library_management 
+2021-10-07 19:36:48,464 DEBUG bench build --app library_management
+2021-10-07 19:36:48,697 INFO /home/dell/.local/bin/bench build --app library_management
+2021-10-07 19:37:04,012 INFO /home/dell/.local/bin/bench new-site library.test
+2021-10-07 19:39:58,882 INFO /home/dell/.local/bin/bench new-site library.test1
+2021-10-07 19:40:19,968 INFO /home/dell/.local/bin/bench new-site library.test2
+2021-10-07 19:41:33,089 INFO /home/dell/.local/bin/bench start
+2021-10-07 19:41:34,195 INFO /home/dell/.local/bin/bench watch
+2021-10-07 19:41:34,236 INFO /home/dell/.local/bin/bench worker --queue short
+2021-10-07 19:41:34,265 INFO /home/dell/.local/bin/bench worker --queue long
+2021-10-07 19:41:34,298 INFO /home/dell/.local/bin/bench serve --port 8000
+2021-10-07 19:41:34,384 INFO /home/dell/.local/bin/bench schedule
+2021-10-07 19:41:34,406 INFO /home/dell/.local/bin/bench worker --queue default
+2021-10-07 19:43:42,938 INFO /home/dell/.local/bin/bench start
+2021-10-07 19:43:44,095 INFO /home/dell/.local/bin/bench serve --port 8000
+2021-10-07 19:43:44,099 INFO /home/dell/.local/bin/bench watch
+2021-10-07 19:43:44,116 INFO /home/dell/.local/bin/bench schedule
+2021-10-07 19:43:44,123 INFO /home/dell/.local/bin/bench worker --queue long
+2021-10-07 19:43:44,210 INFO /home/dell/.local/bin/bench worker --queue default
+2021-10-07 19:43:44,283 INFO /home/dell/.local/bin/bench worker --queue short
+2021-10-07 19:45:19,166 INFO /home/dell/.local/bin/bench --site library.test2 add-to-hosts
+2021-10-07 19:45:31,002 INFO /home/dell/.local/bin/bench start
+2021-10-07 19:45:32,004 INFO /home/dell/.local/bin/bench serve --port 8000
+2021-10-07 19:45:32,074 INFO /home/dell/.local/bin/bench worker --queue default
+2021-10-07 19:45:32,099 INFO /home/dell/.local/bin/bench schedule
+2021-10-07 19:45:32,244 INFO /home/dell/.local/bin/bench watch
+2021-10-07 19:45:32,249 INFO /home/dell/.local/bin/bench worker --queue short
+2021-10-07 19:45:32,297 INFO /home/dell/.local/bin/bench worker --queue long
+2021-10-07 19:56:56,104 INFO /home/dell/.local/bin/bench --site library.test2 install-app library_management
+2021-10-07 19:57:14,482 INFO /home/dell/.local/bin/bench --site library.test2 list-apps
+2021-10-07 19:58:15,016 INFO /home/dell/.local/bin/bench --site library.test2 console
+2021-10-07 19:58:47,927 INFO /home/dell/.local/bin/bench --site library.test mariadb
+2021-10-07 19:58:59,711 INFO /home/dell/.local/bin/bench --site library.test2 mariadb
+2021-10-07 19:59:24,584 INFO /home/dell/.local/bin/bench --site library.test2 backup
+2021-10-07 19:59:41,081 INFO /home/dell/.local/bin/bench --site library.test2 --help
+2021-10-07 19:59:55,390 INFO /home/dell/.local/bin/bench start
+2021-10-07 19:59:56,514 INFO /home/dell/.local/bin/bench worker --queue long
+2021-10-07 19:59:56,526 INFO /home/dell/.local/bin/bench serve --port 8000
+2021-10-07 19:59:56,546 INFO /home/dell/.local/bin/bench watch
+2021-10-07 19:59:56,597 INFO /home/dell/.local/bin/bench worker --queue default
+2021-10-07 19:59:56,643 INFO /home/dell/.local/bin/bench schedule
+2021-10-07 19:59:56,679 INFO /home/dell/.local/bin/bench worker --queue short
+2021-10-07 20:00:43,593 INFO /home/dell/.local/bin/bench set-config -g developer_mode true
+2021-10-07 20:00:46,778 INFO /home/dell/.local/bin/bench start
+2021-10-07 20:00:47,941 INFO /home/dell/.local/bin/bench watch
+2021-10-07 20:00:47,996 INFO /home/dell/.local/bin/bench worker --queue long
+2021-10-07 20:00:48,004 INFO /home/dell/.local/bin/bench schedule
+2021-10-07 20:00:48,072 INFO /home/dell/.local/bin/bench serve --port 8000
+2021-10-07 20:00:48,089 INFO /home/dell/.local/bin/bench worker --queue short
+2021-10-07 20:00:48,208 INFO /home/dell/.local/bin/bench worker --queue default
+2021-10-07 20:06:24,925 INFO /home/dell/.local/bin/bench start
+2021-10-07 20:06:26,167 INFO /home/dell/.local/bin/bench worker --queue short
+2021-10-07 20:06:26,205 INFO /home/dell/.local/bin/bench schedule
+2021-10-07 20:06:26,229 INFO /home/dell/.local/bin/bench worker --queue long
+2021-10-07 20:06:26,245 INFO /home/dell/.local/bin/bench watch
+2021-10-07 20:06:26,326 INFO /home/dell/.local/bin/bench serve --port 8000
+2021-10-07 20:06:26,509 INFO /home/dell/.local/bin/bench worker --queue default
+2021-10-07 23:41:18,484 INFO /home/dell/.local/bin/bench start
+2021-10-07 23:41:20,037 INFO /home/dell/.local/bin/bench watch
+2021-10-07 23:41:20,075 INFO /home/dell/.local/bin/bench schedule
+2021-10-07 23:41:20,188 INFO /home/dell/.local/bin/bench worker --queue default
+2021-10-07 23:41:20,254 INFO /home/dell/.local/bin/bench serve --port 8000
+2021-10-07 23:41:20,283 INFO /home/dell/.local/bin/bench worker --queue short
+2021-10-07 23:41:20,312 INFO /home/dell/.local/bin/bench worker --queue long
+2021-10-08 00:00:01,843 INFO /home/dell/.local/bin/bench --verbose --site all backup
+2021-10-08 00:25:48,878 INFO /home/dell/.local/bin/bench start
+2021-10-08 00:25:50,225 INFO /home/dell/.local/bin/bench worker --queue short
+2021-10-08 00:25:50,266 INFO /home/dell/.local/bin/bench serve --port 8000
+2021-10-08 00:25:50,322 INFO /home/dell/.local/bin/bench watch
+2021-10-08 00:25:50,338 INFO /home/dell/.local/bin/bench schedule
+2021-10-08 00:25:50,552 INFO /home/dell/.local/bin/bench worker --queue long
+2021-10-08 00:25:50,583 INFO /home/dell/.local/bin/bench worker --queue default
+2021-10-08 03:43:15,142 INFO /home/dell/.local/bin/bench start
+2021-10-08 03:43:16,261 INFO /home/dell/.local/bin/bench serve --port 8000
+2021-10-08 03:43:16,373 INFO /home/dell/.local/bin/bench worker --queue long
+2021-10-08 03:43:16,389 INFO /home/dell/.local/bin/bench schedule
+2021-10-08 03:43:16,397 INFO /home/dell/.local/bin/bench watch
+2021-10-08 03:43:16,417 INFO /home/dell/.local/bin/bench worker --queue default
+2021-10-08 03:43:16,529 INFO /home/dell/.local/bin/bench worker --queue short
