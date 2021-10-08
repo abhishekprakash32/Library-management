@@ -98,3 +98,4 @@
 2021-10-08 03:43:16,397 INFO /home/dell/.local/bin/bench watch
 2021-10-08 03:43:16,417 INFO /home/dell/.local/bin/bench worker --queue default
 2021-10-08 03:43:16,529 INFO /home/dell/.local/bin/bench worker --queue short
+2021-10-08 12:00:01,978 INFO /home/dell/.local/bin/bench --verbose --site all backup
